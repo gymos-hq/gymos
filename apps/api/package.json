@@ -1,0 +1,13 @@
+{
+  "name": "@gymos/api",
+  "version": "0.0.1",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "echo 'API dev placeholder — will be replaced in GYMOS-21'",
+    "build": "echo 'API build placeholder'",
+    "lint": "echo 'API lint placeholder'",
+    "test": "echo 'API test placeholder'",
+    "type-check": "echo 'API type-check placeholder'"
+  }
+}
