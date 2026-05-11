@@ -1,0 +1,12 @@
+{
+  "name": "@gymos/web",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'Web dev placeholder — will be replaced in GYMOS-22'",
+    "build": "echo 'Web build placeholder'",
+    "lint": "echo 'Web lint placeholder'",
+    "test": "echo 'Web test placeholder'",
+    "type-check": "echo 'Web type-check placeholder'"
+  }
+}
