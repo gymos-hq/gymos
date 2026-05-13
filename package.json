@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "gymos",
   "private": true,
   "version": "0.0.1",
@@ -29,3 +30,31 @@
   },
   "packageManager": "npm@10.0.0"
 }
+=======
+    "name": "gymos",
+    "private": true,
+    "version": "0.0.1",
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "scripts": {
+        "build": "turbo run build",
+        "dev": "turbo run dev",
+        "lint": "turbo run lint",
+        "test": "turbo run test",
+        "type-check": "turbo run type-check",
+        "format": "prettier --write \"**/*.{ts,tsx,md,json}\""
+    },
+    "devDependencies": {
+        "eslint": "^8.57.1",
+        "prettier": "^3.8.3",
+        "turbo": "^2.0.0",
+        "typescript": "^5.4.0"
+    },
+    "engines": {
+        "node": ">=20.0.0"
+    },
+    "packageManager": "npm@10.0.0"
+}
+>>>>>>> 08384cc4a3ab15f86ef623e82fa3aa77c0a905e8
