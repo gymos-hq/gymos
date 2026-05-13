@@ -1,27 +1,31 @@
 {
-    "name": "gymos",
-    "private": true,
-    "version": "0.0.1",
-    "workspaces": [
-        "apps/*",
-        "packages/*"
-    ],
-    "scripts": {
-        "build": "turbo run build",
-        "dev": "turbo run dev",
-        "lint": "turbo run lint",
-        "test": "turbo run test",
-        "type-check": "turbo run type-check",
-        "format": "prettier --write \"**/*.{ts,tsx,md,json}\""
-    },
-    "devDependencies": {
-        "eslint": "^8.57.1",
-        "prettier": "^3.8.3",
-        "turbo": "^2.0.0",
-        "typescript": "^5.4.0"
-    },
-    "engines": {
-        "node": ">=20.0.0"
-    },
-    "packageManager": "npm@10.0.0"
+  "name": "gymos",
+  "private": true,
+  "version": "0.0.1",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "type-check": "turbo run type-check",
+    "format": "prettier --write \"**/*.{ts,tsx,md,json}\""
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.0.1",
+    "@commitlint/config-conventional": "^21.0.1",
+    "@typescript-eslint/eslint-plugin": "^7.7.0",
+    "@typescript-eslint/parser": "^7.7.0",
+    "eslint": "^8.57.1",
+    "prettier": "^3.8.3",
+    "turbo": "^2.0.0",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "packageManager": "npm@10.0.0"
 }
