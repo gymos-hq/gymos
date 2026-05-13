@@ -6,8 +6,11 @@
   "scripts": {
     "dev": "echo 'API dev placeholder — will be replaced in GYMOS-21'",
     "build": "echo 'API build placeholder'",
-    "lint": "echo 'API lint placeholder'",
+    "lint": "eslint . --ext .ts,.tsx --max-warnings 0 --no-error-on-unmatched-pattern",
     "test": "echo 'API test placeholder'",
     "type-check": "echo 'API type-check placeholder'"
+  },
+  "devDependencies": {
+    "@gymos/eslint-config": "*"
   }
 }
