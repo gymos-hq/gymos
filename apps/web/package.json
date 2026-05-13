@@ -5,8 +5,11 @@
   "scripts": {
     "dev": "echo 'Web dev placeholder — will be replaced in GYMOS-22'",
     "build": "echo 'Web build placeholder'",
-    "lint": "echo 'Web lint placeholder'",
+    "lint": "eslint . --ext .ts,.tsx --max-warnings 0 --no-error-on-unmatched-pattern",
     "test": "echo 'Web test placeholder'",
     "type-check": "echo 'Web type-check placeholder'"
+  },
+  "devDependencies": {
+    "@gymos/eslint-config": "*"
   }
 }
