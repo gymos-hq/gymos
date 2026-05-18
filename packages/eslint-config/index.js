@@ -1,6 +1,6 @@
 /** @type {import('eslint').Linter.Config} */
 
-module_exports = {
+module.exports = {
     root: true,
     parser: '@typescript-eslint/parser',
     plugins: ['@typescript-eslint'],
